@@ -7,4 +7,8 @@ class GebishOrgHomePage extends Page {
     static content = {
         manualsMenu { module(ManualsMenuModule) }
     }
+
+    def test(){
+        println "great"
+    }
 }
